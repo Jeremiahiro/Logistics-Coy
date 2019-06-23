@@ -1,0 +1,237 @@
+// Variables
+@import 'variables';
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/airport_architecture.jpg');
+}
+
+.callback {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.9)), url('/images/background/airport_architecture2.jpg');
+}
+
+.about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/bg_adults-about.jpg');
+    background-position: center;
+}
+
+.contact {
+    background-image: url('/images/background/contact.jpg');
+}
+
+.news {
+    background-image: url('/images/background/bg_news.jpg');
+}
+
+.gallery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url('/images/background/gallerygrid.jpg');
+}
+
+.about_services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url('/images/background/bg_about.jpg');
+}
+
+.branches {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/location-tech.jpg');
+}
+
+.flight {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url('/images/background/flight1.jpg');
+}
+
+.reg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/bg.jpg');
+}
+.hotel {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/hotel-room.jpg');
+    background-position: center bottom;
+}
+
+.visa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/visa-ma.jpg');
+    background-position: center;
+}
+
+.study {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url('/images/background/study-ma.jpg');
+    background-position: center;
+}
+
+.legal {
+    background-image: url('/images/background/tc-1.jpg');
+    background-position: top;
+}
+
+.privacy {
+    background-image: url('/images/background/privacy.jpg');
+}
+
+
+.faq {
+    background-image: url('/images/background/bg_2.jpg');
+}
+
+.modal {
+    transition: opacity 0.25s ease;
+}
+
+.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+}
+
+.service_cont_sub {
+    background-color: rgba(7, 10, 16, 0.9);
+}
+
+.ad_container {
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.ad_pop {
+    background-color: #fff;
+    background: rgba(253, 251, 251, 0.8);
+}
+
+.container_top {
+    z-index: 1;
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    font-size: 6em;
+    line-height: 0.1em;
+    vertical-align: -0.6em;
+}
+
+.group:hover .group-hover\:block {
+    display: block !important;
+}
+
+input[type="radio"]+label span {
+    transition: background .2s,
+    transform .2s;
+}
+
+input[type="radio"]+label span:hover,
+input[type="radio"]+label:hover span {
+    transform: scale(1.2);
+}
+
+input[type="radio"]:checked+label span {
+    background-color: #d69e2e;
+    box-shadow: 0px 0px 0px 2px white inset;
+}
+
+input[type="radio"]:checked+label {
+    color: #d69e2e;
+}
+
+/* Tab content - closed */
+.tab-content {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+
+/* :checked - resize to full height */
+.tab input:checked~.tab-content {
+    max-height: 100vh;
+}
+
+/* Icon */
+.tab label::after {
+    float: right;
+    right: 0;
+    top: 0;
+    display: block;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+/* Icon formatting - closed */
+.tab input[type=radio]+label::after {
+    content: "\25BE";
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    border-width: 1px;
+    border-radius: 9999px;
+    border-color: #b8c2cc;
+}
+
+.tab input[type=checkbox]+label::after {
+    content: "\0002C5";
+    line-height: 1.5;
+    font-size: 1.5rem;
+    color: #718096;
+    font-weight: bold;
+}
+
+/* Icon formatting - open */
+.tab input[type=radio]:checked+label::after {
+    transform: rotateX(180deg);
+    background-color: #d69e2e;
+    color: #f8fafc;
+}
+
+.tab input[type=checkbox]:checked+label::after {
+    transform: rotate(180deg);
+}
+
+#permitted:checked~.blocked {
+    display: none;
+}
+
+#permitted:checked~button {
+    display: block;
+}
+
+.terms input[type="checkbox"]+label span {
+    transition: background .2s,
+    transform .2s;
+}
+
+.terms input[type="checkbox"]+label:hover span {
+    transform: scale(1.2);
+}
+
+.terms input[type="checkbox"]:checked+label span {
+    background-color: #d69e2e;
+    box-shadow: 0px 0px 0px 2px white inset;
+}
+
+.terms input[type="checkbox"]:checked+label {
+    color: #d69e2e;
+}
