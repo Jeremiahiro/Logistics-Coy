@@ -10,28 +10,36 @@
         /*Apply classes for slide in bar*/
         scrollpos = window.scrollY;
 
-        if (scrollpos > 10) {
+        if (scrollpos > 100) {
             navcontent.classList.remove("bg-transparent");
 
             header.classList.remove("py-4");
             header.classList.add("py-1");
-            header.classList.add("bg-black-200");
-            navaction.classList.remove("bg-white");
-            navaction.classList.add("bg-yellow-600");
-            navaction.classList.remove("text-gray-800");
+            header.classList.add("bg-orange-50");
+            navcontent.classList.remove("text-white");
+            navcontent.classList.add("text-gray-900");
+            navaction.classList.remove("bg-gray-300");
+            navaction.classList.add("bg-gray-900");
+            navaction.classList.remove("text-gray-900");
             navaction.classList.add("text-white");
         } else {
             navcontent.classList.add("bg-transparent");
 
             header.classList.add("py-4");
             header.classList.remove("py-1");
-            header.classList.remove("bg-black-200");
-            navaction.classList.add("bg-white");
-            navaction.classList.remove("bg-yellow-600");
-            navaction.classList.add("text-gray-800");
-            navaction.classList.remove("text-white");
+            header.classList.remove("bg-orange-50");
+            navcontent.classList.add("text-white");
+            navcontent.classList.remove("text-gray-900");
+            navaction.classList.add("bg-gray-300");
+            navaction.classList.remove("bg-gray-900");
+            navaction.classList.add("text-gray-900");
+            navaction.classList.remove("text-white");;
         }
     });
+
+    function topFunction() {
+        document.documentElement.scrollTop = 0;
+      }
 
     /*Toggle list*/
     var navMenuDiv = document.getElementById("main_menu");

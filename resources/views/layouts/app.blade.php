@@ -22,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
 
 </head>
-<body class="leading-normal overflow-x-hidden text-white font-serif">
+<body class="leading-normal overflow-x-hidden text-white asap">
     <div>
         <main class="">
             @yield('content')

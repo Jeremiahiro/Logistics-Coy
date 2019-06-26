@@ -18,11 +18,11 @@ Route::get('/terms', 'PagesController@terms')->name('terms');
 Route::get('/gallery', 'PagesController@gallery')->name('gallery');  
 Route::get('/privacy', 'PagesController@privacy')->name('privacy');  
 Route::get('/contact', 'PagesController@contact')->name('contact');  
-Route::get('/study_abroad', 'ServiceController@study')->name('study_abroad'); 
-Route::get('/flight_booking', 'ServiceController@flight')->name('flight_booking');  
-Route::get('/visa_application', 'ServiceController@visa')->name('visa_application');  
-Route::get('/hotel_reservation', 'ServiceController@hotel')->name('hotel_reservation');  
-Route::get('/delivery_service', 'ServiceController@delivery')->name('delivery_service');  
+Route::get('/study', 'ServiceController@study')->name('study'); 
+Route::get('/flight', 'ServiceController@flight')->name('flight');  
+Route::get('/visa', 'ServiceController@visa')->name('visa');  
+Route::get('/hotel', 'ServiceController@hotel')->name('hotel');  
+Route::get('/delivery', 'ServiceController@delivery')->name('delivery');  
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

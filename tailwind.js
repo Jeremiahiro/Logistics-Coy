@@ -46,6 +46,7 @@ module.exports = {
         900: '#742a2a',
       },
       orange: {
+        50: '#f1a80f',
         100: '#fffaf0',
         200: '#feebc8',
         300: '#fbd38d',
@@ -289,6 +290,7 @@ module.exports = {
       screen: '100vh',
       '80': '80vh',
       '40': '40vh',
+      '30': '35vh',
       '50': '50vh',
       '65': '65vh',
       '75': '75vh',

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="about bg-cover ">
+<div class="bg-gray-900">
     @include('partials.header')
     <div class="pt-12">
         <div class="w-full my-24 pb-20 lg:pb-8">
@@ -18,7 +18,13 @@
 </div>
 @include('aboutPage.container_top')
 
+{{--  @include('homePage.about')  --}}
+{{--  @include('homePage.services')  --}}
+{{--  @include('homePage.callback')  --}}
 @include('aboutPage.our_services')
+@include('aboutPage.whyus')
+@include('homePage.faq')
+
 
 @include('partials.footer')
 

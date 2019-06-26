@@ -1,15 +1,16 @@
 <nav id="header" class="fixed w-full text-white py-4 z-10">
-    <div class="relative fixed z-20 top-0 w-full container mx-auto flex flex-wrap items-center justify-between">
+    <div id="top"
+        class="relative fixed z-20 top-0 w-full container mx-auto flex flex-wrap items-center justify-between">
 
         <div class="pl-4 flex items-center">
-            <a class="toggleColour text-yellow-600 no-underline hover:no-underline font-black text-2xl lg:text-4xl flex"
+            <a class="toggleColour text-white no-underline hover:no-underline font-black text-2xl lg:text-4xl flex"
                 href="#"> SEVENSTAR
             </a>
         </div>
 
         <div class="block lg:hidden pr-4">
             <button id="nav-toggle"
-                class="flex items-center px-3 py-2 border rounded text-yellow-600 border-yellow-600 hover:text-white hover:border-yellow-700 appearance-none focus:outline-none">
+                class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-yellow-700 appearance-none focus:outline-none">
                 <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                     <title>Menu</title>
@@ -17,18 +18,17 @@
             </button>
         </div>
 
-        <div class="flex-grow lg:flex lg:items-center lg:block lg:bg-transparent lg:w-auto text-white bg-black-200 hidden pt-6 lg:pt-0 w-full z-20 mt-2 lg:mt-0"
+        <div class="flex-grow lg:flex lg:items-center lg:block bg-transparent lg:w-auto text-white hidden pt-6 lg:pt-0 w-full z-20 mt-2 lg:mt-0"
             id="main_menu">
-            <ul class="lg:flex font-black list-reset justify-end flex-1 items-center" id="menu_nav">
+            <ul class="lg:flex font-bold text-lg list-reset justify-end flex-1 items-center" id="menu_nav">
                 <li class="relative inline-block py-2 group mb-1 md:mb-0" id="button_home">
-                    <a class="whitespace-no-wrap no-underline hover:text-yellow-600 hover:underline py-2 px-4 min-w-full"
-                        href="/">
+                    <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2 min-w-full" href="/">
                         <span class="last">Home</span>
                     </a>
                 </li>
 
                 <li class="relative py-2 group mb-1 md:mb-0 cursor-pointer" id="button_about">
-                    <a class="whitespace-no-wrap no-underline hover:text-yellow-600 hover:underline py-2 px-4">
+                    <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex min-w-full">About
                             <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -44,26 +44,26 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-200 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-black-200 z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-black-200 w-4 h-4 absolute right-0 top-0 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 mr-2 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
                             </path>
                         </svg>
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-6" href="/about">
                                 <span class="">Company</span>
                             </a>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-6" href="/blog">
                                 <span class="">Blog</span>
                             </a>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-6" href="/gallery">
                                 <span class="">Gallery</span>
                             </a>
@@ -72,7 +72,7 @@
                 </li>
 
                 <li class="relative py-2 group mb-1 md:mb-0 cursor-pointer" id="button_service">
-                    <a class="whitespace-no-wrap no-underline hover:text-yellow-600 hover:underline py-2 px-4">
+                    <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex min-w-full">Services
                             <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -88,39 +88,39 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-200 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-black-200 z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-black-200 w-4 h-4 absolute right-0 top-0 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 mr-2 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
                             </path>
                         </svg>
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
-                            <a class="nav-link py-2 px-5" href="/flight_booking">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
+                            <a class="nav-link py-2 px-5" href="/flight">
                                 <span class="">Flight Booking</span>
                             </a>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
-                            <a class="nav-link py-2 px-5" href="/hotel_reservation">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
+                            <a class="nav-link py-2 px-5" href="/hotel">
                                 <span class="">Hotel Reservation</span>
                             </a>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
-                            <a class="nav-link py-2 px-5" href="/visa_application">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
+                            <a class="nav-link py-2 px-5" href="/visa">
                                 <span class="">Visa Application</span>
                             </a>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
-                            <a class="nav-link py-2 px-5" href="/study_abroad">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
+                            <a class="nav-link py-2 px-5" href="/study">
                                 <span class="">Study Abroad</span>
                             </a>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
-                            <a class="nav-link py-2 px-5" href="/delivery_service">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
+                            <a class="nav-link py-2 px-5" href="/delivery">
                                 <span class="">Delivery Service</span>
                             </a>
                         </li>
@@ -129,7 +129,7 @@
 
                 @guest
                 <li class="relative py-2 group mb-1 md:mb-0 cursor-pointer" id="button_account">
-                    <a class="whitespace-no-wrap no-underline hover:text-yellow-600 hover:underline py-2 px-4">
+                    <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex min-w-full">Account
                             <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -145,20 +145,20 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-200 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-black-200 z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-black-200 w-4 h-4 absolute right-0 top-0 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 mr-2 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
                             </path>
                         </svg>
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-6" href="{{ route('login') }}">
                                 <span>{{ __('Login') }}</span>
                             </a>
                         </li>
                         @if (Route::has('register'))
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-6" href="{{ route('register') }}">
                                 <span>{{ __('Register') }}</span>
                             </a>
@@ -169,7 +169,7 @@
                 @else
 
                 <li class="relative py-2 group mb-1 md:mb-0 cursor-pointer" id="button_user">
-                    <a class="whitespace-no-wrap no-underline hover:text-yellow-600 hover:underline py-2 px-4">
+                    <a class="whitespace-no-wrap no-underline hover:text-yellow-600 hover:underline p-2">
                         <span class="inline-flex min-w-full">{{ Auth::user()->name }}
                             <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -185,14 +185,14 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-200 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-black-200 z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-black-200 w-4 h-4 absolute right-0 top-0 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 mt-10 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 mr-2 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
                             </path>
                         </svg>
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
                                 <span>{{ __('Logout') }}</span>
@@ -202,7 +202,7 @@
                             </form>
                         </li>
 
-                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-yellow-600 hover:bg-gray-700">
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-5" href="/account_setting">
                                 <span class="">Settings</span>
                             </a>
@@ -212,7 +212,7 @@
                 @endguest
 
                 <div class="flex">
-                    <li class="my-auto relative px-3 hover:underline text-gray-800 py-2 group bg-gray-300 rounded-full mb-1 md:mb-0"
+                    <li class="my-auto relative px-3 hover:underline text-gray-900 py-2 group bg-gray-300 rounded-full mb-1 md:mb-0"
                         id="button_like">
                         <a class="font-semibold whitespace-no-wrap" href="/contact">
                             <span class="">Contact Us</span>

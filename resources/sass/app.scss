@@ -145,12 +145,13 @@ input[type="radio"]+label:hover span {
 }
 
 input[type="radio"]:checked+label span {
-    background-color: #d69e2e;
+    background-color: #f1a80f;
     box-shadow: 0px 0px 0px 2px white inset;
 }
 
 input[type="radio"]:checked+label {
-    color: #d69e2e;
+    color: #f1a80f;
+    font-weight: 600;
 }
 
 /* Tab content - closed */
@@ -202,7 +203,7 @@ input[type="radio"]:checked+label {
 /* Icon formatting - open */
 .tab input[type=radio]:checked+label::after {
     transform: rotateX(180deg);
-    background-color: #d69e2e;
+    background-color: #f1a80f;
     color: #f8fafc;
 }
 
@@ -228,10 +229,10 @@ input[type="radio"]:checked+label {
 }
 
 .terms input[type="checkbox"]:checked+label span {
-    background-color: #d69e2e;
+    background-color: #f1a80f;
     box-shadow: 0px 0px 0px 2px white inset;
 }
 
 .terms input[type="checkbox"]:checked+label {
-    color: #d69e2e;
+    color: #f1a80f;
 }

@@ -112,7 +112,7 @@
 
     <div class="bg-black-100 w-full text-gray-600 p-3 text-center">
         Copyright &#169 2019 - Sevenstar Logistics Limited
-        <a href="/about" class="float-right w-6 -mt-2">
+        <button class="float-right w-6 -mt-2" onclick="topFunction()" title="Scroll to Top">
             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 x="0px" y="0px" viewBox="0 0 438.533 438.533" style="enable-background:new 0 0 438.533 438.533;"
                 xml:space="preserve">
@@ -131,6 +131,6 @@
            C366.589,224.117,364.881,228.402,361.449,231.831z" />
                 </g>
             </svg>
-        </a>
+        </button>
     </div>
 </footer>
