@@ -1,5 +1,5 @@
 <div class="mx-10 my-5">
-    <div class="mb-5">
+    <div class="mb-5 ml-5">
         <h1 class="font-extrabold text-4xl text-gray-900 leading-loose">Top Destinations</h1>
         <div class="h-1 bg-orange-50 w-24 opacity-75 my-0 py-0 rounded-t"></div>
     </div>
@@ -8,7 +8,7 @@
         <div class="lg:w-9/12 max-w-4xl mx-auto">
             <div class="lg:flex lg:flex-wrap mb-3">
                 <div class="flex-1 mb-5 relative rounded-lg h-30 group">
-                    <img src="images/cities/dubai.jpg" alt="" class="h-full w-full border-2 border-orange-50 rounded">
+                    <img src="images/cities/dubai.jpg" alt="" class="h-full w-full border-2 rounded">
                     <div class="absolute top-0 m-3 text-center ad_container text-white p-3 flex">
                         <div>
                             <h1 class="text-2xl font-bold">Dubai</h1>
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="flex-1 mb-5 relative rounded-lg lg:mx-3 h-30 group">
-                    <img src="images/cities/paris.jpg" alt="" class="h-full w-full border-2 border-orange-50 rounded">
+                    <img src="images/cities/paris.jpg" alt="" class="h-full w-full border-2 rounded">
                     <div class="absolute top-0 m-3 text-center ad_container text-white p-3 flex">
                         <div>
                             <h1 class="text-2xl font-bold">Paris</h1>
@@ -41,7 +41,7 @@
 
                 <div class="flex-1 mb-5 relative rounded-lg h-30 group">
                     <img src="images/cities/johannesburg.jpg" alt=""
-                        class="h-full w-full border-2 border-orange-50 rounded">
+                        class="h-full w-full border-2 rounded">
                     <div class="absolute top-0 m-3 text-center ad_container text-white p-3 flex">
                         <div>
                             <h1 class="text-2xl font-bold">Johannesburg</h1>
@@ -60,7 +60,7 @@
             <div class="lg:flex lg:flex-wrap">
                 <div class="flex-1 mb-5 relative rounded-lg h-30 group">
                     <img src="images/cities/new-york.jpg" alt=""
-                        class="h-full w-full rounded-lg border-2 border-orange-50">
+                        class="h-full w-full rounded-lg border-2">
                     <div class="absolute top-0 m-3 text-center ad_container text-white p-3 flex">
                         <div>
                             <h1 class="text-2xl font-bold">New York</h1>
@@ -77,7 +77,7 @@
 
                 <div class="flex-1 mb-5 relative rounded-lg h-30 group lg:mx-3">
                     <img src="images/cities/london.jpg" alt=""
-                        class="h-full w-full rounded-lg border-2 border-orange-50">
+                        class="h-full w-full rounded-lg border-2">
                     <div class="absolute top-0 m-3 text-center ad_container text-white p-3 flex">
                         <div>
                             <h1 class="text-2xl font-bold">England</h1>
@@ -93,7 +93,7 @@
 
                 <div class="flex-1 mb-5 relative rounded-lg h-30 group">
                     <img src="images/cities/florida.jpg" alt=""
-                        class="h-full w-full rounded-lg border-2 border-orange-50">
+                        class="h-full w-full rounded-lg border-2">
                     <div class="absolute top-0 m-3 text-center ad_container text-white p-3 flex">
                         <div>
                             <h1 class="text-2xl font-bold">Florida</h1>

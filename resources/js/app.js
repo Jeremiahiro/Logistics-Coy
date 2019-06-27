@@ -4,13 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
-
-window.Vue = require('vue');
-
-// import VModal from 'vue-js-modal'
-
-// Vue.use(VModal);
+// window.Vue = require('vue');
 
 
 /**
@@ -24,7 +18,7 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('slide-show', require('./components/SlideShow.vue').default);
+// Vue.component('slide-show', require('./components/SlideShow.vue').default);
 
 
 /**
@@ -33,6 +27,6 @@ Vue.component('slide-show', require('./components/SlideShow.vue').default);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
-    el: '#app',
-});
+// const app = new Vue({
+//     el: '#app',
+// });

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="news bg-fixed bg-center">
+<div class="bg-gray-900">
     @include('partials.header')
     <div class="pt-12">
         <div class="w-full my-24">

@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-1/2 shadow-lg">
                     <div class="mx-auto ad_container rounded">
                         <div class="py-4 px-8 border-b border-gray-300 flex justify-between">
                             <span class="uppercase text-2xl">{{ __('register') }}</span>

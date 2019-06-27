@@ -7851,17 +7851,8 @@ video {
           transform: skewY(2.5deg);
 }
 
-.home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/background/airport_architecture.jpg");
-}
-
-.callback {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/images/background/airport_architecture2.jpg");
-}
-
-.about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/background/bg_adults-about.jpg");
-  background-position: center;
+body {
+  font-family: "Asap", sans-serif;
 }
 
 .contact {
@@ -7870,14 +7861,6 @@ video {
 
 .news {
   background-image: url("/images/background/bg_news.jpg");
-}
-
-.gallery {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/background/gallerygrid.jpg");
-}
-
-.about_services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/background/bg_about.jpg");
 }
 
 .branches {
@@ -7889,7 +7872,7 @@ video {
 }
 
 .reg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/background/bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/background/airport_architecture.jpg");
 }
 
 .hotel {
@@ -7931,6 +7914,10 @@ video {
 
 .service_cont_sub {
   background-color: rgba(7, 10, 16, 0.9);
+}
+
+.branch_cont {
+  background-color: rgba(1, 7, 32, 0.7);
 }
 
 .ad_container {

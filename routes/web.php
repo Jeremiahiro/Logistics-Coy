@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'PagesController@index')->name('home');  
+Route::get('/', 'PagesController@index')->name('homepage');  
 Route::get('/blog', 'PagesController@blog')->name('blog');  
 Route::get('/about', 'PagesController@about')->name('about');  
 Route::get('/terms', 'PagesController@terms')->name('terms');  
@@ -25,4 +25,4 @@ Route::get('/hotel', 'ServiceController@hotel')->name('hotel');
 Route::get('/delivery', 'ServiceController@delivery')->name('delivery');  
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'HomeController@index')->name('dashboard');

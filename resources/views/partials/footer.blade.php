@@ -1,15 +1,14 @@
-<footer class="bg-black-200">
+<footer class="bg-gray-900">
     <div class=" py-12">
         <div class="mx-auto max-w-5xl text-center">
+            <div class="lg:flex lg:flex-wrap relative">
 
-            <div class="lg:flex lg:flex-wrap">
-
-                <div class="lg:w-2/6">
-                    <div class="md:container text-center md:mx-auto lg:text-left mb-6">
+                <div class="lg:w-2/6 lg:mb-0 mb-8">
+                    <div class="md:container text-center md:mx-auto lg:text-left">
                         <a class="inline-block" href="#">
                             <img src="images/logo.jpg" alt="SEVENSTAR" class="h-12">
                         </a>
-                        <p class="mt-2  mr-2 md:mr-0 text-gray-700">
+                        <p class="mt-2 mr-2 md:mr-0 text-gray-500">
                             No. 6 Etche Road Aba <br>
                             <a href="#"
                                 class="no-underline hover:text-yellow-600 hover:underline hover:text-yellow-600">sevenstar.logistics@gmail.com</a>
@@ -20,37 +19,37 @@
                     </div>
                 </div>
 
-                <div class="lg:w-1/6">
+                <div class="lg:w-1/6 lg:mb-0 mb-8">
                     <div class="md:container md:text-center md:mx-auto lg:text-left">
-                        <p class="uppercase text-gray-500">Links</p>
-                        <ul class="list-reset mb-6 inline-block mr-2 md:block md:mr-0">
+                        <p class="uppercase text-gray-500 text-xl">Links</p>
+                        <ul class="list-reset block mr-2 md:mr-0 flex justify-center lg:inline-block">
                             <li class="mt-2 ">
                                 <a href="/faq"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">FAQ</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">FAQ</a>
                             </li>
-                            <li class="mt-2 ">
+                            <li class="mt-2 mx-4 lg:mx-0">
                                 <a href="/flight_booking"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">Services</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Services</a>
                             </li>
                             <li class="mt-2 ">
                                 <a href="/gallery"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">Gallery</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Gallery</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="lg:w-1/6">
+                <div class="lg:w-1/6 lg:mb-0 mb-8">
                     <div class="md:container md:text-center md:mx-auto lg:text-left">
-                        <p class="uppercase text-gray-500">Legal</p>
-                        <ul class="list-reset mb-6 inline-block mr-2 md:block md:mr-0">
-                            <li class="mt-2">
+                        <p class="uppercase text-gray-500 text-xl">Legal</p>
+                        <ul class="list-reset block mr-2 md:mr-0 flex justify-center lg:inline-block">
+                            <li class="mt-2 mr-4 lg:mr-0">
                                 <a href="/terms"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">Terms</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Terms</a>
                             </li>
                             <li class="mt-2">
                                 <a href="/privacy"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">Privacy</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Privacy</a>
                             </li>
                         </ul>
                     </div>
@@ -58,43 +57,43 @@
 
                 <div class="lg:w-1/6">
                     <div class="md:container md:text-center md:mx-auto lg:text-left">
-                        <p class="uppercase text-gray-500">Company</p>
-                        <ul class="list-reset mb-6 inline-block mr-2 md:mr-0">
-                            <li class="mt-2 ">
+                        <p class="uppercase text-gray-500 text-xl">Company</p>
+                        <ul class="list-reset block mr-2 md:mr-0 flex justify-center lg:inline-block">
+                            <li class="mt-2">
                                 <a href="/contact"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">Contact</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Contact</a>
                             </li>
-                            <li class="mt-2 ">
+                            <li class="mt-2 mx-4 lg:mx-0">
                                 <a href="/about"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">About
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">About
                                     Us</a>
                             </li>
-                            <li class="mt-2 ">
+                            <li class="mt-2">
                                 <a href="/blog"
-                                    class="no-underline hover:underline text-gray-700 hover:text-yellow-600">Blog</a>
+                                    class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Blog</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="lg:w-1/6">
+                <div class="lg:w-1/6 absolute mt-10 lg:mt-0 top-0 right-0 mr-12">
                     <div class="">
-                        <ul class="list-reset flex justify-center text-gray-700 mr-2 md:mr-0">
-                            <li class="mt-2">
+                        <ul class="list-reset inline-block text-gray-500 mr-2 md:mr-0">
+                            <li class="lg:mb-6 mb-8">
                                 {{-- facebook icon --}}
                                 <a href="/facebook.com/sevelstarlog" class="mr-8 hover:underline hover:text-blue-800">
                                     <img src="images/icon/facebook.svg" alt="" class="h-8 inline-block">
                                 </a>
                             </li>
 
-                            <li class="mt-2">
+                            <li class="lg:mb-6 mb-8">
                                 {{-- twitter icon --}}
                                 <a href="/instagram.com/sevenstarlog" class="mr-8 hover:underline hover:text-blue-600">
                                     <img src="images/icon/twitter.svg" alt="" class="h-8 inline-block">
                                 </a>
                             </li>
 
-                            <li class="mt-2">
+                            <li class="lg:mb-6 mb-8">
                                 {{-- instagram icon --}}
                                 <a href="/twitter.com/sevenstarlog" class="mr-8">
                                     <img src="images/icon/instagram.svg" alt=""

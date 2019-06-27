@@ -1,5 +1,5 @@
 <div class="mx-10 my-5">
-    <div class="mb-5">
+    <div class="mb-5 ml-5">
         <h1 class="font-extrabold text-4xl text-gray-900 leading-loose">Hotels</h1>
         <div class="h-1 bg-orange-50 w-24 opacity-75 my-0 py-0 rounded-t"></div>
     </div>
@@ -11,7 +11,7 @@
                     <a
                         href="https://www.booking.com/hotel/ng/habitat-and-resort.en-gb.html?aid=356980;label=gog235jc-1DCAsopwFCEmhhYml0YXQtYW5kLXJlc29ydEgzWANopwGIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AtnmuOgFwAIB;sid=5144d07a5788e546b8ab969a3a46fbdd;dist=0&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&sb_price_type=total&type=total&">
                         <img src="images/hotel/habitat-hotel.jpg" alt=""
-                            class="h-full w-full border-2 border-orange-50 rounded">
+                            class="h-full w-full border-2 rounded">
                         <div class="w-full absolute top-0 ad_container text-white pt-1 px-2">
                             <p class="text-base font-bold">Habitat Hotel & Resort</p>
                             <div class="text-sm flex justify-between">
@@ -49,7 +49,7 @@
                     <a
                         href="https://www.booking.com/searchresults.html?aid=304142;label=gen173rf-1FCAEoggI46AdIM1gDaKcBiAEBmAEJuAEXyAEM2AEB6AEB-AELiAIBmAIiqAIDuAKt8bjoBcACAQ;sid=5144d07a5788e546b8ab969a3a46fbdd;checkin=2019-06-22;checkin_monthday=22;checkin_year_month=2019-06;checkout=2019-06-23;checkout_monthday=23;checkout_year_month=2019-06;dest_id=-782831;dest_type=city;group_adults=2;group_children=0;highlighted_hotels=67220;nflt=pri%3D1%3Bpri%3D2%3Bdi%3D938%3Bht_id%3D204%3Breview_score%3D80%3Bmealplan%3D1%3Btdb%3D3%3B;no_rooms=1;sb_travel_purpose=leisure;ucfac=31&">
                         <img src="images/hotel/dubai-hotel.webp" alt=""
-                            class="h-full w-full border-2 border-orange-50 rounded">
+                            class="h-full w-full border-2 rounded">
                         <div class="w-full absolute top-0 ad_container text-white pt-1 px-2">
                             <p class="text-base font-bold">Emirate Concord Hotel, Dubai</p>
                             <div class="text-sm flex justify-between">
@@ -87,7 +87,7 @@
                     <a
                         href="https://www.booking.com/hotel/us/s-houstonj-brookhollow-houston-texas.en-gb.html?aid=356980;label=gog235jc-1DCAso7AFCJHMtaG91c3RvbmotYnJvb2tob2xsb3ctaG91c3Rvbi10ZXhhc0gzWANopwGIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AsX5uOgFwAIB;sid=5144d07a5788e546b8ab969a3a46fbdd;dist=0&group_adults=2&keep_landing=1&sb_price_type=total&type=total&">
                         <img src="images/hotel/london-hotel.webp" alt=""
-                            class="h-full w-full border-2 border-orange-50 rounded">
+                            class="h-full w-full border-2 rounded">
                         <div class="w-full absolute top-0 ad_container text-white pt-1 px-2">
                             <p class="text-base font-bold">Hotel Derek, Houston</p>
                             <div class="text-sm flex justify-between">
@@ -127,7 +127,7 @@
                     <a
                         href="https://www.booking.com/hotel/us/west-palm-beach-marriott.en-gb.html?aid=304142;label=gen173nr-1DCAEoggI46AdIM1gEaKcBiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuALa8LjoBcACAQ;sid=5144d07a5788e546b8ab969a3a46fbdd;atlas_src=sr_iw_title;checkin=2019-06-22;checkout=2019-06-23;dist=0;group_adults=2;group_children=0;highlighted_blocks=26364201_119572215_4_2_0;nflt=class%3D4%3B;no_rooms=1;room1=A%2CA;sb_price_type=total;type=total;ucfs=1&">
                         <img src="images/hotel/florida-hotel.jpg" alt=""
-                            class="h-full w-full border-2 border-orange-50 rounded">
+                            class="h-full w-full border-2 rounded">
                         <div class="w-full absolute top-0 ad_container text-white pt-1 px-2">
                             <p class="text-base font-bold">West Palm Beach Marriott, Florida</p>
                             <div class="text-sm flex justify-between">
@@ -165,7 +165,7 @@
                     <a
                         href="https://www.booking.com/hotel/fr/atala.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaKcBiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuALa8LjoBcACAQ;sid=5144d07a5788e546b8ab969a3a46fbdd;all_sr_blocks=5007417_122617236_0_2_0;checkin=2019-06-22;checkout=2019-06-23;dest_id=-1456928;dest_type=city;dist=0;group_adults=2;hapos=2;highlighted_blocks=5007417_122617236_0_2_0;hpos=2;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1561216270;srpvid=f9b96ac77e510358;type=total;ucfs=1&#hotelTmpl">
                         <img src="images/hotel/paris-hotel.jpg" alt=""
-                            class="h-full w-full border-2 border-orange-50 rounded">
+                            class="h-full w-full border-2 rounded">
                         <div class="w-full absolute top-0 ad_container text-white pt-1 px-2">
                             <p class="text-base font-bold">Atala Champs-Elysées, Paris</p>
                             <div class="text-sm flex justify-between">
@@ -203,7 +203,7 @@
                     <a
                         href="https://www.booking.com/hotel/za/mapungubwe-apartments.en-gb.html?label=gen173nr-1DCAEoggI46AdIM1gEaKcBiAEBmAEJuAEXyAEM2AED6AEBiAIBqAIDuALa8LjoBcACAQ;sid=5144d07a5788e546b8ab969a3a46fbdd;all_sr_blocks=17749507_170453148_0_2_0;bhgwe_bhr=0;checkin=2019-06-22;checkout=2019-06-23;dest_id=-1240261;dest_type=city;dist=0;group_adults=2;hapos=4;highlighted_blocks=17749507_170453148_0_2_0;hpos=4;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1561215486;srpvid=bbfa693f89e70118;type=total;ucfs=1&#hotelTmpl">
                         <img src="images/hotel/faircity-hotel.jpg" alt=""
-                            class="h-full w-full border-2 border-orange-50 rounded">
+                            class="h-full w-full border-2 rounded">
                         <div class="w-full absolute top-0 ad_container text-white pt-1 px-2">
                             <p class="text-base font-bold">Faircity Mapungubwe Hotel, S.A</p>
                             <div class="text-sm flex justify-between">

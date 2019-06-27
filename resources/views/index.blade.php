@@ -7,31 +7,8 @@
         @include('homePage.hero')
     </div>
 </div>
-<div class="shadow-lg rounded-lg max-w-6xl mx-auto -mt-24 bg-gray-400 rounded-t overflow-hidden container relative">
-    <div class="">
-        <ul class="flex font-extrabold text-xl text-gray-900 tracking-widest bg-gray-300">
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline bg-gray-400" href="flight">Flight</a>
-            </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="hotel">Hotel</a>
-            </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="visa">Visa</a>
-            </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="study">Study</a>
-            </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="delivery">Delivery</a>
-            </li>
-        </ul>
 
-        <div class="w-full text-xl md:text-2xl leading-normal">
-            @include('forms.flight')
-        </div>
-    </div>
-</div>
+@include('servicePage.services')
 @include('servicePage.advert.destination')
 @include('servicePage.advert.hotels-ad')
 

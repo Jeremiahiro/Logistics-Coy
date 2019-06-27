@@ -1,3 +1,4 @@
+
 @extends('layouts.app')
 
 @section('content')
@@ -8,30 +9,46 @@
     </div>
 </div>
 <div class="shadow-lg rounded-lg max-w-6xl mx-auto -mt-24 bg-gray-400 rounded-t overflow-hidden container relative">
-    <div class="">
         <ul class="flex font-extrabold text-xl text-gray-900 tracking-widest bg-gray-300">
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline bg-gray-400" href="flight">Flight</a>
+            <li class="flex-1 bg-gray-400" id="flight_booking">
+                <a class="text-center block p-4 hover:underline">Flight</a>
             </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="hotel">Hotel</a>
+            <li class="flex-1" id="hotel_reservation">
+                <a class="text-center block p-4 hover:underline">Hotel</a>
             </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="visa">Visa</a>
+            <li class="flex-1" id="visa_application">
+                <a class="text-center block p-4 hover:underline">Visa</a>
             </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="study">Study</a>
+            <li class="flex-1" id="study_abroad">
+                <a class="text-center block p-4 hover:underline">Study</a>
             </li>
-            <li class="flex-1">
-                <a class="text-center block p-4 hover:underline" href="delivery">Delivery</a>
+            <li class="flex-1" id="delivery_services">
+                <a class="text-center block p-4 hover:underline">Delivery</a>
             </li>
         </ul>
 
-        <div class="w-full text-xl md:text-2xl leading-normal">
+        <div class="w-full text-xl md:text-2xl leading-normal" id="flight">
             @include('forms.flight')
         </div>
-    </div>
+
+        <div class="w-full text-xl md:text-2xl leading-normal hidden" id="hotel">
+            @include('forms.hotel')
+        </div>
+
+        <div class="w-full text-xl md:text-2xl leading-normal hidden" id="visa">
+            @include('forms.visa')
+        </div>
+
+        <div class="w-full text-xl md:text-2xl leading-normal hidden" id="study">
+            <img src="images/background/coming_soon.jpg" class="w-full h-full" alt="">
+        </div>
+
+        <div class="w-full text-xl md:text-2xl leading-normal hidden" id="delivery">
+            <img src="images/background/coming_soon.jpg" class="w-full h-full" alt="">
+        </div>
 </div>
+
+
 @include('servicePage.advert.destination')
 @include('servicePage.advert.hotels-ad')
 

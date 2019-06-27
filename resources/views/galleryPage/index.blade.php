@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="gallery bg-fixed bg-cover bg-center bg-black">
+<div class="bg-gray-900">
     @include('partials.header')
     <div class="pt-12">
         <div class="w-full mt-24 pb-20">
@@ -21,78 +21,151 @@
 
     <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_about.jpg" alt="About" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_about.jpg" alt="About" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
             <img src="images/background/airport_architecture.jpg" alt="Airport Architecture" onclick="myFunction(this);"
                 class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/airport_architecture2.jpg" alt="Arc" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/airport_architecture2.jpg" alt="Arc" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_1.jpg" alt="Background 1" onclick="myFunction(this);" class="modal-open w-full h-full">
-        </div>
-    </div>
-
-    <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
-        <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);" class="modal-open w-full h-full">
-        </div>
-        <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);" class="modal-open w-full h-full">
-        </div>
-        <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);" class="modal-open w-full h-full">
-        </div>
-        <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/flight1.jpg" alt="Flight" onclick="myFunction(this);" class="modal-open w-full h-full">
-        </div>
-        <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/study1.jpg" alt="Study" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_1.jpg" alt="Background 1" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
     </div>
 
     <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/flight1.jpg" alt="Flight" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/study1.jpg" alt="Study" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
     </div>
 
     <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/study1.jpg" alt="Study" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_about.jpg" alt="About" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+    </div>
+
+    <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/study1.jpg" alt="Study" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_about.jpg" alt="About" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
             <img src="images/background/airport_architecture.jpg" alt="Airport Architecture" onclick="myFunction(this);"
                 class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/airport_architecture2.jpg" alt="Arc" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/airport_architecture2.jpg" alt="Arc" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_1.jpg" alt="Background 1" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_1.jpg" alt="Background 1" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
     </div>
 
     <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
         <div class="flex-1 mr-1 mb-1 lg:mb-0">
-            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);" class="modal-open w-full h-full">
+            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+
+    </div>
+
+
+    <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+    </div>
+
+    <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/study1.jpg" alt="Study" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_about.jpg" alt="About" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/airport_architecture.jpg" alt="Airport Architecture" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/airport_architecture2.jpg" alt="Arc" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_1.jpg" alt="Background 1" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+    </div>
+
+    <div class="lg:flex lg:flex-wrap mx-12 lg:mx-0 lg:my-1">
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_2.jpg" alt="Background 2" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/bg_news.jpg" alt="News" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
+        </div>
+        <div class="flex-1 mr-1 mb-1 lg:mb-0">
+            <img src="images/background/contact.jpg" alt="Delivery" onclick="myFunction(this);"
+                class="modal-open w-full h-full">
         </div>
 
     </div>
