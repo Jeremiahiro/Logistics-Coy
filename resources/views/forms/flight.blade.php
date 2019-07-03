@@ -105,7 +105,7 @@
             </label>
             <div class="inline-block relative w-full">
                 <input
-                    class="shadow appearance-none border rounded w-full py-3 px-4 pl-10 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                    class="shadow appearance-none border rounded w-full py-3 px-4 pl-8 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="depart" type="date" placeholder="" value="2019-07-01" name="departure_date">
                 <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
                     <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
@@ -118,15 +118,14 @@
                 Return
             </label>
             <div class="inline-block relative w-full">
-                <input
-                    class="shadow appearance-none border rounded w-full py-3 px-4 pl-10 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="return" type="date" placeholder="" value="2019-08-01">
-                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
-                    <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
+                    <input
+                        class="shadow appearance-none border rounded w-full py-3 px-4 pl-8 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        id="depart" type="date" placeholder="" value="2019-08-01" name="departure_date">
+                    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
+                        <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
+                    </div>
                 </div>
-            </div>
         </div>
-
     </div>
 
     <div class="flex justify-center">

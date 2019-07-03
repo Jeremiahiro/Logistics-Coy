@@ -1,6 +1,6 @@
-<div class="lg:flex justify-center mx-auto my-5 ">
+<div class="lg:flex mx-auto my-5 justufy-center max-w-6xl">
 
-    <div class="lg:mr-5 lg:mt-20 text-center">
+    <div class="lg:w-2/5 w-full mx-auto">
         <div class="w-full mx-auto">
             <h1 class="my-2 text-5xl font-bold leading-tight text-orange-50 font-sans">Request a Callback
             </h1>
@@ -19,34 +19,39 @@
         </p>
     </div>
 
-    <form class="lg:w-1/2 max-w-xl ml-5">
-        <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
-            <input
-                class="appearance-none bg-transparent uppercase w-full mr-3 pt-5 px-4 leading-normal border-none rounded focus:outline-none focus:bg-gray-600 focus:border-orange-50"
-                autocomplete="off" type="text" placeholder="Full Name *" aria-label="Full name" name="full_name">
-        </div>
+    <div class="lg:w-3/5 w-full mx-auto">
+        <form class="">
+            <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
+                <input
+                    class="appearance-none bg-transparent uppercase w-full mr-3 pt-5 px-4 leading-normal border-none rounded focus:outline-none focus:bg-gray-600 focus:border-orange-50"
+                    autocomplete="off" type="text" placeholder="Full Name *" aria-label="Full name" name="full_name">
+            </div>
 
-        <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
-            <input
-                class="appearance-none bg-transparent w-full mr-3 pt-5 px-4 leading-normal border-none rounded focus:outline-none focus:bg-gray-600 focus:border-orange-50"
-                autocomplete="off" type="email" placeholder="Email Address *" aria-label="Email Address" name="email">
-        </div>
+            <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
+                <input
+                    class="appearance-none bg-transparent w-full mr-3 pt-5 px-4 leading-normal border-none rounded focus:outline-none focus:bg-gray-600 focus:border-orange-50"
+                    autocomplete="off" type="email" placeholder="Email Address *" aria-label="Email Address"
+                    name="email">
+            </div>
 
-        <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
-            <input
-                class="appearance-none bg-transparent w-full mr-3 pt-5 px-4 leading-normal border-none rounded focus:outline-none focus:bg-gray-600 focus:border-orange-50"
-                autocomplete="off" type="text" placeholder="Phone Number *" aria-label="Phone Number" name="phone">
-        </div>
+            <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
+                <input
+                    class="appearance-none bg-transparent w-full mr-3 pt-5 px-4 leading-normal border-none rounded focus:outline-none focus:bg-gray-600 focus:border-orange-50"
+                    autocomplete="off" type="text" placeholder="Phone Number *" aria-label="Phone Number" name="phone">
+            </div>
 
-        <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
-            <textarea
-                class="appearance-none bg-transparent w-full mr-3 pt-5 px-4 leading-normal border-none rounded resize-y focus:outline-none focus:bg-gray-600 focus:border-orange-50"
-                autocomplete="off" placeholder="Your Message" rows="1"  onfocus="this.rows=10;" style="resize: none; transition: row 2s;" onblur="this.rows=1;"></textarea>
-        </div>
+            <div class="flex items-center border-b border-b-2 border-orange-50 py-2">
+                <textarea
+                    class="appearance-none bg-transparent w-full mr-3 pt-5 px-4 leading-normal border-none rounded resize-y focus:outline-none focus:bg-gray-600 focus:border-orange-50"
+                    autocomplete="off" placeholder="Your Message" rows="1" onfocus="this.rows=10;"
+                    style="resize: none; transition: row 2s;" onblur="this.rows=1;"></textarea>
+            </div>
 
-        <button
-            class="w-full bg-orange-50 text-white py-2 my-8 px-4 border-solid border-4 font-bold text-xl rounded-lg leading-tight border-orange-50 shadow-lg hover:bg-transparent hover:text-white">
-            Send
-        </button>
-    </form>
+            <button
+                class="w-full bg-orange-50 text-white py-2 my-8 px-4 border-solid border-4 font-bold text-xl rounded-lg leading-tight border-orange-50 shadow-lg hover:bg-transparent hover:text-white">
+                Send
+            </button>
+        </form>
+    </div>
+
 </div>

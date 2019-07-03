@@ -1,7 +1,7 @@
 <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32 bg-gray-900">
     <div class="w-full rounded overflow-hidden leading-normal rounded-lg relative">
         <div class="about mx-auto text-center break-normal py-20 bg-cover bg-center">
-            <p class="text-gray-200 font-extrabold text-6xl uppercase">
+            <p class="text-gray-200 font-extrabold lg:text-6xl text-3xl uppercase">
                 who we are
             </p>
         </div>

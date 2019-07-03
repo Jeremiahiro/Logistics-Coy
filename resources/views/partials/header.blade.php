@@ -10,7 +10,7 @@
 
         <div class="block lg:hidden pr-4">
             <button id="nav-toggle"
-                class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-orange-50 hover:border-orange-50 appearance-none focus:outline-none">
+                class="flex items-center px-3 py-2 border rounded text-white border-white appearance-none focus:outline-none">
                 <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                     <title>Menu</title>
@@ -22,16 +22,16 @@
             id="main_menu">
             <ul class="lg:flex font-bold text-2xl lg:text-lg list-reset lg:justify-end flex-1 text-center my-auto"
                 id="menu_nav">
-                <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_home">
+                <li class="relative py-2 group lg:mb-1 mb-2 cursor-pointer" id="button_home">
                     <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2" href="/">
                         <span class="last">Home</span>
                     </a>
                 </li>
 
-                <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_about">
+                <li class="relative py-2 group lg:mb-1 mb-2 cursor-pointer" id="button_about">
                     <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex">About
-                            <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
+                            <svg class="w-2 ml-2 fill-current hidden lg:block" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;"
                                 xml:space="preserve">
@@ -72,10 +72,10 @@
                     </ul>
                 </li>
 
-                <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_service">
+                <li class="relative py-2 group lg:mb-1 mb-2 cursor-pointer" id="button_service">
                     <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex">Services
-                            <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
+                            <svg class="w-2 ml-2 fill-current hidden lg:block" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;"
                                 xml:space="preserve">
@@ -129,10 +129,10 @@
                 </li>
 
                 @guest
-                <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_account">
+                <li class="relative py-2 group lg:mb-1 mb-2 cursor-pointer" id="button_account">
                     <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex">Account
-                            <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
+                            <svg class="w-2 ml-2 fill-current hidden lg:block" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;"
                                 xml:space="preserve">
@@ -169,12 +169,13 @@
                 </li>
                 @else
 
-                <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_user">
+                <li class="relative py-2 group lg:mb-1 mb-2 cursor-pointer" id="button_user">
                     <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
                         <span class="inline-flex">
-                        <img src="{{ Auth::user()-> avater }}" alt="{{ Auth::user()->first_name }}'s avater" class="w-8 mr-2 rounded-full border border-gray-900">                        
-                        {{ Auth::user()->first_name }}
-                            <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
+                            <img src="{{ Auth::user()-> avater }}" alt="{{ Auth::user()->first_name }}'s avater"
+                                class="w-8 mr-2 rounded-full border border-gray-900">
+                            {{ Auth::user()->first_name }}
+                            <svg class="w-2 ml-2 fill-current hidden lg:block" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;"
                                 xml:space="preserve">
@@ -219,27 +220,23 @@
                 </li>
                 @endguest
 
-                <div class="flex justify-center">
+                <li class="relative py-2 group lg:mb-1 mb-2 cursor-pointer lg:inline-block text-gray-900">
+                    <a class="font-semibold whitespace-no-wrap hover:underline bg-gray-300 py-3 px-4 rounded-full"
+                        href="/contact" id="button_like">
+                        <span class="">Contact Us</span>
+                    </a>
+                </li>
 
-                    <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer lg:inline-block text-gray-900 group"
-                        >
-                        <a class="font-semibold whitespace-no-wrap hover:underline bg-gray-300 py-3 px-4 rounded-full" href="/contact" id="button_like">
-                            <span class="">Contact Us</span>
-                        </a>
-                    </li>
+                <li class="p-2 group text-center lg:mb-1 mb-2 cursor-pointer lg:inline-block group search-icon" id="search-toggle">
+                    <svg class="fill-current text-grey-darkest w-6 text-center mx-auto" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20">
+                        <title>search</title>
+                        <path
+                            d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
+                        </path>
+                    </svg>
+                </li>
 
-                    <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer px-5 search-icon" id="search-toggle">
-                        <input type="checkbox" class="hidden" id="searchy">                
-                        <svg class="fill-current text-grey-darkest w-6 text-center" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20">
-                            <title>search</title>
-                            <path
-                                d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
-                            </path>
-                        </svg>
-                    </li>
-
-                </div>
             </ul>
 
             <div class="relative w-full hidden bg-white search" id="search-content">

@@ -18,12 +18,9 @@
 </div>
 @include('aboutPage.container_top')
 
-{{--  @include('homePage.about')  --}}
-{{--  @include('homePage.services')  --}}
-{{--  @include('homePage.callback')  --}}
 @include('aboutPage.our_services')
 @include('aboutPage.whyus')
-@include('homePage.faq')
+@include('aboutPage.faq')
 
 
 @include('partials.footer')

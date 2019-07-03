@@ -24,7 +24,7 @@
                         <p class="uppercase text-gray-500 text-xl">Links</p>
                         <ul class="list-reset block mr-2 md:mr-0 flex justify-center lg:inline-block">
                             <li class="mt-2 ">
-                                <a href="/faq"
+                                <a href="/about#faq"
                                     class="no-underline hover:underline text-gray-500 hover:text-yellow-600">FAQ</a>
                             </li>
                             <li class="mt-2 mx-4 lg:mx-0">
@@ -76,20 +76,20 @@
                     </div>
                 </div>
 
-                <div class="lg:w-1/6 absolute mt-10 lg:mt-0 top-0 right-0 mr-12">
+                <div class="lg:w-1/6 absolute mt-10 lg:mt-0 top-0 right-0">
                     <div class="">
                         <ul class="list-reset inline-block text-gray-500 mr-2 md:mr-0">
                             <li class="lg:mb-6 mb-8">
                                 {{-- facebook icon --}}
-                                <a href="/facebook.com/sevelstarlog" class="mr-8 hover:underline hover:text-blue-800">
-                                    <img src="images/icon/facebook.svg" alt="" class="h-8 inline-block">
+                                <a href="/facebook.com/sevelstarlog" class="mr-8">
+                                    <img src="images/icon/facebook.svg" alt="" class="h-8 inline-block footer_icon">
                                 </a>
                             </li>
 
                             <li class="lg:mb-6 mb-8">
                                 {{-- twitter icon --}}
                                 <a href="/instagram.com/sevenstarlog" class="mr-8 hover:underline hover:text-blue-600">
-                                    <img src="images/icon/twitter.svg" alt="" class="h-8 inline-block">
+                                    <img src="images/icon/twitter.svg" alt="" class="h-8 inline-block footer_icon">
                                 </a>
                             </li>
 
@@ -97,7 +97,7 @@
                                 {{-- instagram icon --}}
                                 <a href="/twitter.com/sevenstarlog" class="mr-8">
                                     <img src="images/icon/instagram.svg" alt=""
-                                        class="h-8 inline-block hover:text-yellow-600">
+                                        class="h-8 inline-block hover:text-yellow-600 footer_icon">
                                 </a>
                             </li>
                         </ul>

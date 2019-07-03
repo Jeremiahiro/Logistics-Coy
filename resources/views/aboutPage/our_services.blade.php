@@ -5,10 +5,10 @@
             <div class="h-1 mx-auto bg-orange-50 w-64 opacity-50 my-0 py-0 rounded-t"></div>
         </div>
 
-        <div class="flex flex-wrap">
-            <div class="w-5/6 sm:w-1/2 p-6">
+        <div class="flex flex-wrap mx-auto max-w-6xl">
+            <div class="w-5/6 sm:w-1/2 p-6-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Flight Booking</h3>
-                <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum
                     eu nunc commodo posuere et sit amet ligula.<br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et
                     sit amet ligula
@@ -144,10 +144,10 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="flex flex-wrap flex-col-reverse sm:flex-row mx-auto my-3">
             <div class="w-full sm:w-1/2 p-6 mt-6">
-                <svg class="w-5/6 sm:h-64 mx-auto" id="a8904fed-7223-4ff2-9071-b444910320a0" data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg" width="1137" height="518.05664" viewBox="0 0 1137 518.05664">
+                <svg class="w-full sm:h-64 mx-auto" id="a8904fed-7223-4ff2-9071-b444910320a0" data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1137 518.05664">
                     <title>Hotel Reservation</title>
                     <path
                         d="M175.76416,701.583l-1.95117-.43946c21.75586-96.751,76.43017-184.60937,153.95117-247.3916A444.114,444.114,0,0,1,1039.919,699.96289l-1.94922.44336C991.916,498.19727,814.69531,356.97168,607,356.97168,402.02637,356.97168,220.66553,501.90137,175.76416,701.583Z"
@@ -428,7 +428,7 @@
             <div class="w-full sm:w-1/2 p-6 mt-6">
                 <div class="align-middle">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Hotel Reservation</h3>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                         ipsum
                         eu nunc commodo posuere et sit amet ligula.<br />
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
@@ -440,13 +440,12 @@
                     </p>
                 </div>
             </div>
-
         </div>
 
         <div class="flex flex-wrap">
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Visa Application</h3>
-                <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum
                     eu nunc commodo posuere et sit amet ligula.<br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et
                     sit amet ligula
@@ -456,9 +455,9 @@
 
             </div>
             <div class="w-full sm:w-1/2 p-6">
-                <svg class="w-5/6 sm:h-64 mx-auto" id="062a65d4-6310-416e-8fb8-777315adf84b" data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="853.53"
-                    height="770" viewBox="0 0 853.53 770">
+                <svg class="w-full sm:h-64 mx-auto" id="062a65d4-6310-416e-8fb8-777315adf84b" data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 853.53 770">
                     <defs>
                         <linearGradient id="7db19e5e-7cc3-41df-8a16-c81cf46c1195" x1="758.38" y1="801.59" x2="758.38"
                             y2="131.56" gradientTransform="translate(-136.27 -110.44) rotate(4.65)"
@@ -544,9 +543,9 @@
             </div>
         </div>
 
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
+        <div class="flex flex-wrap flex-col-reverse sm:flex-row mx-auto my-3">
             <div class="w-full sm:w-1/2 p-6 mt-6">
-                <svg class="w-5/6 sm:h-64 mx-auto" id="2cf41747-0c0c-4d70-aad4-093c093adad4" data-name="Layer 1"
+                <svg class="w-full sm:h-64 mx-auto" id="2cf41747-0c0c-4d70-aad4-093c093adad4" data-name="Layer 1"
                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                     viewBox="0 0 1022.84 813.16">
                     <defs>
@@ -557,7 +556,7 @@
                             <stop offset="1" stop-color="gray" stop-opacity="0.1" />
                         </linearGradient>
                     </defs>
-                    <title>book lover</title>
+                    <title>Abroad Study</title>
                     <path
                         d="M688.44,180.84c-64.72-2.25-126.37-23.14-185.23-46S386.05,86.65,322.88,74.54c-40.63-7.79-87.1-8.89-119.83,12.89-31.51,21-41.69,57.15-47.16,90.73-4.12,25.26-6.54,51.84,4.75,75.49,7.83,16.42,21.74,30.22,31.35,46,33.47,54.72,9.82,122.2-26.45,175.63-17,25.07-36.75,49-49.87,75.66s-19.2,57.25-7.72,84.47c11.39,27,38.52,47.24,67.9,61.49,59.69,28.95,130,37.23,198.61,41.92,151.83,10.39,304.46,5.89,456.69,1.39,56.34-1.67,112.92-3.36,168.34-12.07,30.78-4.84,62.55-12.51,84.9-31.05,28.36-23.53,35.39-63.38,16.39-92.88-31.89-49.49-120-61.78-142.32-114.9-12.26-29.23.34-61.79,18.16-88.91,38.24-58.16,102.33-109.19,105.71-175.67,2.32-45.67-28.5-91.39-76.14-113C956.26,89,887,91.88,850.18,129.37,812.24,168,745.58,182.82,688.44,180.84Z"
                         transform="translate(-88.58 -43.42)" fill="#6c63ff" opacity="0.1" />
@@ -938,12 +937,11 @@
                     <polygon points="964.18 668.23 963.76 671.65 903.73 671.65 903.32 668.23 964.18 668.23"
                         fill="#9d9cb5" />
                 </svg>
-
             </div>
             <div class="w-full sm:w-1/2 p-6 mt-6">
                 <div class="align-middle">
                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Abroad Study</h3>
-                    <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
+                    <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                         ipsum
                         eu nunc commodo posuere et sit amet ligula.<br />
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
@@ -955,13 +953,12 @@
                     </p>
                 </div>
             </div>
-
         </div>
 
         <div class="flex flex-wrap">
             <div class="w-5/6 sm:w-1/2 p-6">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Delivery Services</h3>
-                <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum
+                <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum
                     eu nunc commodo posuere et sit amet ligula.<br />
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et
                     sit amet ligula
@@ -971,8 +968,8 @@
 
             </div>
             <div class="w-full sm:w-1/2 p-6">
-                <svg class="w-5/6 sm:h-64 mx-auto" id="76d98801-3a87-461e-b488-021b663cdcb4" data-name="Layer 1"
-                    xmlns="http://www.w3.org/2000/svg" width="1056.29" height="808.9" viewBox="0 0 1056.29 808.9">
+                <svg class="w-full sm:h-64 mx-auto" id="76d98801-3a87-461e-b488-021b663cdcb4" data-name="Layer 1"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056.29 808.9">
                     <title>Delivery Services</title>
                     <path
                         d="M1107.7,264.1a257.25,257.25,0,0,0-41.89-66.76l-581.3-5.73,478.6-67.22A271.88,271.88,0,0,0,866,105.13a272.17,272.17,0,0,0-325.12-11,271,271,0,0,0-124.43-30c-129.16,0-236.78,89.46-260.92,208.08Z"
@@ -1255,7 +1252,9 @@
                         points="362.48 416.49 465.37 417.88 468.83 419.83 460.46 428.09 457.57 426.39 355.66 423.5 362.48 416.49"
                         fill="#65617d" />
                 </svg>
+
             </div>
         </div>
+
     </div>
 </section>

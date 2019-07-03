@@ -7883,7 +7883,6 @@ body {
   left: 50%;
   width: 1000px;
   height: 1000px;
-  color: #f1a80f;
 }
 
 .lds-ripple div {
@@ -7892,13 +7891,25 @@ body {
   opacity: 1;
   border-radius: 50%;
   color: #f1a80f;
-  -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-          animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  -webkit-animation: lds-ripple 1.3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  animation: lds-ripple 1.3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(1) {
+  border-color: #f1a80f;
 }
 
 .lds-ripple div:nth-child(2) {
-  -webkit-animation-delay: -0.5s;
-          animation-delay: -0.5s;
+  border-color: #f1a80f;
+  -webkit-animation-delay: -0.65s;
+  animation-delay: -0.65s;
+}
+
+.lds-ripple {
+  width: 200px !important;
+  height: 200px !important;
+  -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
 
 @-webkit-keyframes lds-ripple {
@@ -8227,6 +8238,58 @@ input[type=radio]:checked + label {
     transform: translateX(50px);
     opacity: 0;
   }
+}
+
+@-webkit-keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.footer_icon {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.footer_icon:hover {
+  cursor: pointer;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -moz-animation-name: bounce;
 }
 
 @media (min-width: 640px){

@@ -1,4 +1,4 @@
-<div class="p-10 faq bg-fixed bg-cover">
+<div class="p-10 faq bg-fixed bg-cover bg-center" id="faq">
     <div class="max-w-6xl mx-auto w-full">
 
         <div class="text-center mb-12">

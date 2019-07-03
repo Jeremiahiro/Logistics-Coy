@@ -34,32 +34,32 @@
             </div>
         </div>
 
-        <div class="w-full md:w-1/5 px-1 mb-6 md:mb-0">
-            <label class="block text-gray-700 font-bold mb-2 text-sm tracking-wide uppercase ml-5" for="check_in">
-                Check In
-            </label>
-            <div class="inline-block relative w-full">
-                <input
-                    class="shadow appearance-none border rounded w-full py-3 px-4 pl-12 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="check_in" type="date" placeholder="" value="2019-07-01" name="check_in_date">
-                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
-                    <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
-                </div>
-            </div>
-        </div>
-
-        <div class="w-full md:w-1/5 px-1 mb-6 md:mb-0" id="return_date">
-            <label class="block text-gray-700 font-bold mb-2 text-sm tracking-wide uppercase ml-5" for="check_out">
+        <div class="w-full md:w-1/5 px-1 mb-6 md:mb-0" id="check_in">
+            <label class="block font-bold mb-2 tracking-wide text-sm uppercase ml-5" for="check_in">
                 Check Out
             </label>
             <div class="inline-block relative w-full">
-                <input
-                    class="shadow appearance-none border rounded w-full py-3 px-4 pl-12 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="check_out" type="date" value="2019-07-01" placeholder="" name="check_out_date">
-                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
-                    <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
+                    <input
+                        class="shadow appearance-none border rounded w-full py-3 px-4 pl-10 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        id="check_out" type="date" value="2019-07-01" placeholder="" name="check_out_date">
+                    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
+                        <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
+                    </div>
                 </div>
-            </div>
+        </div>
+
+        <div class="w-full md:w-1/5 px-1 mb-6 md:mb-0" id="check_out">
+            <label class="block font-bold mb-2 tracking-wide text-sm uppercase ml-5" for="check_out">
+                Check Out
+            </label>
+            <div class="inline-block relative w-full">
+                    <input
+                        class="shadow appearance-none border rounded w-full py-3 px-4 pl-10 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                        id="check_out" type="date" value="2019-07-01" placeholder="" name="check_out_date">
+                    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center px-2 text-gray-700">
+                        <img src="images/icon/calendar.svg" alt="" class="inline-block h-6">
+                    </div>
+                </div>
         </div>
 
         <div class="flex-1">

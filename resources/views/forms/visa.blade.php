@@ -1,9 +1,9 @@
-<div class="w-full m-8 lg:flex lg:flex-wrap lg:justify-center">
+<div class="w-full m-8 lg:flex flex-wrap lg:justify-center mx-auto">
 
-    <div class="w-3/5">
+    <div class="md:w-3/5 w-full">
         <form class="">
             <div class="flex flex-wrap mb-6">
-                <div class="w-full md:w-1/2 px-1 mb-6 md:mb-0">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label class="block text-gray-700 font-bold mb-2 text-sm tracking-wide uppercase ml-5"
                         for="grid-first-name">
                         First Name
@@ -115,7 +115,7 @@
         </form>
     </div>
 
-    <div class="w-2/5 lg:px-12 max-w-lg">
+    <div class="md:w-2/5 w-full px-4">
         <div class="mb-3">
             <h1 class="font-semibold text-lg italic text-gray-800 leading-loose">We Offer Visa Assistance for:</h1>
         </div>
