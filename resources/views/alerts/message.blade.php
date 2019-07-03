@@ -39,7 +39,7 @@
 </div>
 @endif
 
-{{-- @if (session('status')) --}}
+@if (session('status'))
 <div class="alert-toast fixed top-0 right-0 mt-20 w-5/6 md:w-full max-w-sm">
     <input type="checkbox" class="hidden" id="statustoast">
     <label class="close cursor-pointer flex items-start justify-between w-full bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" title="close" for="statustoast">
@@ -50,4 +50,4 @@
       </svg>
     </label>
 </div>
-{{-- @endif --}}
+@endif
