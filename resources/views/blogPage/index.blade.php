@@ -4,7 +4,7 @@
 <div class="bg-gray-900">
     @include('partials.header')
     <div class="pt-12">
-        <div class="w-full my-24">
+        <div class="w-full mt-16 pb-10">
             <div class="container max-w-4xl mx-auto text-center break-normal">
                 <p class="text-white font-extrabold text-2xl lg:text-4xl">
                     BLOG
@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="lg:flex max-w-6xl mx-auto my-20">
+<div class="lg:flex max-w-6xl mx-auto my-16">
     <div class="lg:w-3/5">
         <div class="flex-1 lg:mr-5 mx-10 lg:mx-0 mb-8">
             <div class="container mx-auto">

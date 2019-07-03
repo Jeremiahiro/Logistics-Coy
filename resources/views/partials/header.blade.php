@@ -45,8 +45,8 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-48 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-6 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-40 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-16 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
@@ -89,8 +89,8 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-900 absolute right-0 top-0 inset-x-auto lg:mt-10 mt-12 lg:mr-0 mr-48 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 inset-x-auto lg:mt-10 mt-12 lg:mr-0 mr-32 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-24 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
@@ -146,8 +146,8 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-48 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-40 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-12 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
@@ -189,8 +189,8 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-40 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-6 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-32 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-12 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">

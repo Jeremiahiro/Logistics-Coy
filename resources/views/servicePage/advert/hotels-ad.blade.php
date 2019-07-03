@@ -240,7 +240,7 @@
             </div>
         </div>
 
-        <div class="lg:w-3/12 px-6 mx-auto">
+        <div class="lg:w-3/12 lg:px-6 mx-auto">
             <a href="images/ads/travel-ad-1.png">
                 <img src="images/ads/travel-ad-1.png" alt="" class="mb-12 w-full h-40">
             </a>

@@ -4,7 +4,7 @@
 <div class="bg-gray-900">
     @include('partials.header')
     <div class="pt-12">
-        <div class="w-full mt-24 pb-20">
+        <div class="w-full mt-16 pb-10">
             <div class="container max-w-4xl mx-auto text-center break-normal">
                 <p class="text-white font-extrabold text-2xl lg:text-4xl">
                     OUR GALLERY

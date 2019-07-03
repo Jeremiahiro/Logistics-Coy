@@ -3,6 +3,7 @@
 @section('content')
 <div class="bg-fixed bg-cover bg-gray-900">
     @include('partials.header')
+    @include('alerts.message')
     <div class="pt-20">
         @include('homePage.hero')
     </div>

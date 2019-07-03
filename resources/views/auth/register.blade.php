@@ -6,7 +6,7 @@
     <div class="pt-12">
         <div class="w-full mx-auto max-w-6xl lg:flex py-16 mt-8">
 
-            <div class="w-full lg:w-1/2 my-auto px-10">
+            <div class="w-full lg:w-1/2 lg:my-auto px-10 my-5">
                 <div class="container mx-auto text-center">
                     <p class="text-white font-extrabold text-2xl lg:text-4xl tracking-wide">
                         CREATE A SEVENSTAR ACCOUNT
@@ -20,9 +20,9 @@
                 </div>
             </div>
 
-            <div class="w-full lg:w-1/2 shadow-lg">
+            <div class="w-full lg:w-1/2 shadow-lg my-5">
                     <div class="mx-auto ad_container rounded">
-                        <div class="py-4 px-8 border-b border-gray-300 flex justify-between">
+                        <div class="py-4 px-8 border-b border-gray-300 lg:flex flex-wrap justify-between">
                             <span class="uppercase text-2xl">{{ __('register') }}</span>
                             <p class="text-gray-500 my-auto">
                                 Have an Account? <a href="/login" class="text-yellow-600 hover:underline">Login
@@ -33,8 +33,8 @@
                             @csrf
 
                             <div class="py-4 px-8">
-                                <div class="flex mb-4">
-                                    <div class="w-1/2 mr-1">
+                                <div class="lg:flex lg:mb-4">
+                                    <div class="lg:w-1/2 lg:mr-1 lg:mb-0 mb-4">
                                         <label class="block text-gray-300 text-sm font-bold mb-2 mx-2"
                                             for="first_name">{{ __('First Name') }}</label>
                                         <input
@@ -43,13 +43,13 @@
                                             type="text" placeholder="Your first name">
 
                                         @error('first_name')
-                                        <span class="text-red-600 text-xs mx-3 italic" role="alert">
-                                            <strong>{{ $message }}</strong>
+                                        <span class="text-red-600 text-sm mx-3 italic" role="alert">
+                                            {{ $message }}
                                         </span>
                                         @enderror
                                     </div>
 
-                                    <div class="w-1/2 ml-1">
+                                    <div class="lg:w-1/2 lg:ml-1 lg:mb-0 mb-4">
                                         <label class="block text-gray-300 text-sm font-bold mb-2 mx-2"
                                             for="first_name">{{ __('Last Name') }}</label>
                                         <input
@@ -58,8 +58,8 @@
                                             placeholder="Your last name">
 
                                         @error('last_name')
-                                        <span class="text-red-600 text-xs mx-3 italic" role="alert">
-                                            <strong>{{ $message }}</strong>
+                                        <span class="text-red-600 text-sm mx-3 italic" role="alert">
+                                            {{ $message }}
                                         </span>
                                         @enderror
                                     </div>
@@ -74,27 +74,27 @@
                                         id="email" type="email" name="email" value="{{ old('email') }}"
                                         placeholder="Your email address">
                                     @error('email')
-                                    <span class="text-red-600 text-xs mx-3 italic" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                    <span class="text-red-600 text-sm mx-3 italic" role="alert">
+                                        {{ $message }}
                                     </span>
                                     @enderror
                                 </div>
 
-                                <div class="flex mb-4">
-                                    <div class="w-1/2 mr-1">
+                                <div class="lg:flex lg:mb-4">
+                                    <div class="lg:w-1/2 lg:mr-1 lg:mb-0 mb-4">
                                         <label class="block text-gray-300 text-sm font-bold mb-2 mx-2"
                                             for="password">{{ __('Password') }}</label>
                                         <input
                                             class="appearance-none border rounded w-full py-2 px-3 text-lg text-gray-800 @error('password') is-invalid @enderror"
                                             name="password" id="password" type="password" placeholder="***********">
                                         @error('password')
-                                        <span class="text-red-500 text-xs mx-3 italic" role="alert">
-                                            <strong>{{ $message }}</strong>
+                                        <span class="text-red-600 text-sm mx-3 italic" role="alert">
+                                            {{ $message }}
                                         </span>
                                         @enderror
                                     </div>
 
-                                    <div class="w-1/2 ml-1">
+                                    <div class="lg:w-1/2 lg:ml-1 lg:mb-0 mb-4">
                                         <label class="block text-gray-300 text-sm font-bold mb-2 mx-2"
                                             for="password_confirm">{{ __('Confirm Password') }}</label>
                                         <input class="appearance-none border rounded w-full py-2 px-3 text-lg text-gray-800"
@@ -105,25 +105,20 @@
 
                                 <div class="mb-4 terms">
                                     <input type="checkbox" name="accept_terms" id="permitted" class="hidden">
-                                    <label for="permitted" class="flex cursor-pointer text-gray-500">
+                                    <label for="permitted" class="flex cursor-pointer text-gray-500 text-left">
                                         <span class="w-4 h-4 mr-4 border border-gray-700 flex-no-shrink my-auto"></span>
-                                        I agree to the Sevenstar Logistics <a href="/terms"
-                                            class="hover:underline ml-2"> Terms
-                                            and
-                                            Conditions</a>
+                                        I agree to the Sevenstar Logistics <a href="/terms"class="hover:underline"> Terms and Conditions</a>
                                     </label>
 
                                     <div class="blocked my-6 text-gray-500 text-center">(Accept <a href="/terms"
                                             class="text-yellow-600 hover:underline">Terms and Conditions</a> to
                                         Continue)</div>
                                     <button
-                                        class="hidden appearance-none my-6 mx-auto px-5 py-2 text-white bg-yellow-600 font-bold cursor-pointer rounded-full text-lg focus:outline-none"
+                                        class="hidden appearance-none my-6 mx-auto px-5 py-2 text-white bg-yellow-600 cursor-pointer rounded-full text-lg focus:outline-none"
                                         type="submit">
                                         {{ __('Sign Up') }}
                                     </button>
                                 </div>
-
-
                             </div>
 
                         </form>

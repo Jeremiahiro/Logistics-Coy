@@ -9,9 +9,7 @@
 
 
         <div class="lg:flex lg:justify-between">
-
-            <div class="shadow-md  mr-5">
-
+            <div class="shadow-md my-3 lg:mr-5">
                 <div class="tab w-full overflow-hidden">
                     <input class="absolute opacity-0" id="tab-single-one" type="radio" name="tabs2">
                     <label class="block p-3 leading-normal cursor-pointer" for="tab-single-one">Where is Your Delivery
@@ -66,8 +64,7 @@
 
             </div>
 
-            <div class="shadow-md  mr-5 mb-5">
-
+            <div class="shadow-md my-3 lg:ml-5">
                 <div class="tab w-full overflow-hidden">
                     <input class="absolute opacity-0" id="tab-single-five" type="radio" name="tabs2">
                     <label class="block p-3 leading-normal cursor-pointer" for="tab-single-five">Where is Your Delivery

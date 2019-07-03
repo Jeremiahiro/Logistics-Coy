@@ -28,7 +28,7 @@
                                     class="no-underline hover:underline text-gray-500 hover:text-yellow-600">FAQ</a>
                             </li>
                             <li class="mt-2 mx-4 lg:mx-0">
-                                <a href="/flight_booking"
+                                <a href="/about#services"
                                     class="no-underline hover:underline text-gray-500 hover:text-yellow-600">Services</a>
                             </li>
                             <li class="mt-2 ">
@@ -111,7 +111,7 @@
 
     <div class="bg-black-100 w-full text-gray-600 p-3 text-center">
         Copyright &#169 2019 - Sevenstar Logistics Limited
-        <button class="float-right w-6 -mt-2" onclick="topFunction()" title="Scroll to Top">
+        <button class="float-right w-6 -mt-2 footer_icon" onclick="topFunction()" title="Scroll to Top">
             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 x="0px" y="0px" viewBox="0 0 438.533 438.533" style="enable-background:new 0 0 438.533 438.533;"
                 xml:space="preserve">

@@ -5,7 +5,7 @@
             <div class="h-1 mx-auto bg-orange-50 w-64 opacity-50 my-0 py-0 rounded-t"></div>
         </div>
 
-        <div class="w-full max-w-6xl flex flex-wrap mx-auto mb-5">
+        <div class="w-full max-w-6xl lg:flex flex-wrap mx-auto mb-5">
 
             <div class="flex-1 rounded-r-lg branch_cont p-5 border-l-4 border-yellow-600">
                 <h1 class="text-gray-500 font-bold leading-normal pb-2">Head Office</h1>
@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="mx-5 lg:mx-10 flex-1 rounded-r-lg branch_cont p-5 border-l-4 border-yellow-600">
+            <div class="my-5 lg:my-0 lg:mx-10 flex-1 rounded-r-lg branch_cont p-5 border-l-4 border-yellow-600">
                 <h1 class="text-gray-500 font-bold leading-normal pb-2">Branch Office</h1>
                 <p class="text-white font-extrabold leading-smug pb-2">Rivers State, Nigeria</p>
                 <div class="text-yellow-600 italic cursor-pointer">
@@ -42,7 +42,7 @@
                     <div class="">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.0052031124437!2d7.377233214294125!3d5.102856539461101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104299336d65eeb3%3A0xbeb3218cabae7883!2s6+Etche+Road%2C+Aba!5e0!3m2!1sen!2sng!4v1561648980504!5m2!1sen!2sng"
-                            class="w-full h-50 rounded-l-lg" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            class="w-full h-50" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@
                     <div class="">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.752510873482!2d7.002285114293743!3d4.812504042019099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce81aff147b7%3A0xd7c2d5e4718c975d!2sLandmark+Hotels+Limited!5e0!3m2!1sen!2sng!4v1561649141418!5m2!1sen!2sng"
-                            class="w-full h-50 rounded-l-lg" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            class="w-full h-50" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -140,7 +140,7 @@
                     <div class="">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.6547626918373!2d7.000755914293778!3d4.829206841875669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce76dee7b6dd%3A0x6072178c9f1b1c15!2sHotel+Presidential!5e0!3m2!1sen!2sng!4v1561649717301!5m2!1sen!2sng"
-                            class="w-full h-50 rounded-l-lg" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            class="w-full h-50" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
 

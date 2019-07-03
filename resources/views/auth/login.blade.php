@@ -9,20 +9,16 @@
             <div class="w-full lg:w-1/2 my-auto px-10">
                 <div class="container mx-auto text-center">
                     <p class="text-white font-extrabold text-2xl lg:text-4xl tracking-wide">
-                        CREATE A SEVENSTAR ACCOUNT
+                        WELCOME BACK
                     </p>
-                    <p class="text-xl text-gray-500 italic">Save yourself time. You dont need to re-enter your details
-                        each
-                        time you make a booking.
-                        <br>
-                        Create your account in 60 seconds.</p>
+                    <p class="text-xl text-gray-500 italic">Login to Continue where you left off.</p>
                     <div class="h-1 bg-yellow-600 w-24 opacity-75 my-0 py-0 rounded-t mx-auto"></div>
                 </div>
             </div>
 
-            <div class="w-full lg:w-1/2">
+            <div class="w-full lg:w-1/2 shadow-lg my-5">
                 <div class="mx-auto ad_container rounded">
-                    <div class="py-4 px-8 border-b border-gray-300 flex justify-between">
+                    <div class="py-4 px-8 border-b border-gray-300 lg:flex flex-wrap justify-between">
                         <span class="uppercase text-2xl">{{ __('login') }}</span>
                         <p class="text-gray-500 my-auto">
                             Need an Account? <a href="/register" class="text-yellow-600 hover:underline">Register
@@ -42,8 +38,8 @@
                                     name="email" value="{{ old('email') }}" id="email" type="email">
 
                                 @error('email')
-                                <span class="text-red-600 text-xs mx-3 italic" role="alert">
-                                    <strong>{{ $message }}</strong>
+                                <span class="text-red-600 text-sm mx-3 italic" role="alert">
+                                    {{ $message }}
                                 </span>
                                 @enderror
                             </div>
@@ -55,8 +51,8 @@
                                     class="appearance-none border rounded w-full py-2 px-3 text-lg text-gray-800 @error('password') is-invalid @enderror"
                                     name="password" id="password" type="password">
                                 @error('password')
-                                <span class="text-red-600 text-xs mx-3 italic" role="alert">
-                                    <strong>{{ $message }}</strong>
+                                <span class="text-red-600 text-sm mx-3 italic" role="alert">
+                                    {{ $message }}
                                 </span>
                                 @enderror
                             </div>

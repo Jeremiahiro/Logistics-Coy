@@ -1,8 +1,8 @@
-<div class="lg:flex mx-auto my-5 justufy-center max-w-6xl">
+<div class="lg:flex mx-auto my-5 justify-center max-w-6xl">
 
-    <div class="lg:w-2/5 w-full mx-auto">
+    <div class="lg:w-2/5 w-full mx-auto my-auto lg:mr-2">
         <div class="w-full mx-auto">
-            <h1 class="my-2 text-5xl font-bold leading-tight text-orange-50 font-sans">Request a Callback
+            <h1 class="my-2 lg:text-4xl text-3xl font-bold leading-tight text-orange-50 font-sans">Request a Callback
             </h1>
             <div class="mb-4 invisible lg:visible">
                 <div class="h-1 mx-auto bg-orange-50 w-32 opacity-75 my-0 py-0 rounded-t"></div>
