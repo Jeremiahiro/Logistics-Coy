@@ -2,8 +2,8 @@
     <div id="top"
         class="relative fixed z-20 top-0 w-full container mx-auto flex flex-wrap items-center justify-between">
 
-        <div class="pl-4 flex items-center">
-            <a class="toggleColour text-white no-underline hover:no-underline font-black text-2xl lg:text-4xl flex"
+        <div class="pl-4 flex-grow items-center">
+            <a class="toggleColour text-white no-underline hover:no-underline font-black text-2xl lg:text-3xl"
                 href="/homepage"> SEVENSTAR
             </a>
         </div>
@@ -20,7 +20,7 @@
 
         <div class="flex-grow lg:flex items-center lg:block lg:bg-transparent bg-gray-900 lg:w-auto text-white hidden pt-6 lg:pt-0 w-full lg:h-auto h-screen z-20 mt-2 lg:mt-0"
             id="main_menu">
-            <ul class="lg:flex font-bold text-2xl lg:text-lg list-reset lg:justify-end flex-1 text-center"
+            <ul class="lg:flex font-bold text-2xl lg:text-lg list-reset lg:justify-end flex-1 text-center my-auto"
                 id="menu_nav">
                 <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_home">
                     <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2" href="/">
@@ -170,8 +170,10 @@
                 @else
 
                 <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer" id="button_user">
-                    <a class="whitespace-no-wrap no-underline hover:text-orange-50 hover:underline p-2">
-                        <span class="inline-flex">{{ Auth::user()->name }}
+                    <a class="whitespace-no-wrap no-underline hover:text-white hover:underline p-2">
+                        <span class="inline-flex">
+                        <img src="{{ Auth::user()-> avater }}" alt="{{ Auth::user()->first_name }}'s avater" class="w-8 mr-2 rounded-full border border-gray-900">                        
+                        {{ Auth::user()->first_name }}
                             <svg class="w-2 ml-2 fill-current" version="1.1" id="Capa_1"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;"
@@ -186,27 +188,32 @@
                         </span>
                     </a>
                     <ul
-                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-48 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
-                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-4 -mt-3 z-10"
+                        class="py-3 text-left text-gray-900 absolute right-0 top-0 lg:mt-10 mt-12 lg:mr-0 mr-40 rounded-lg shadow-lg bg-white z-10 hidden group-hover:block w-auto">
+                        <svg class="block fill-current text-white w-4 h-4 absolute right-0 top-0 lg:mr-2 mr-6 -mt-3 z-10"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path
                                 d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0">
                             </path>
                         </svg>
                         <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
-                            <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                document.getElementById('logout-form').submit();">
-                                <span>{{ __('Logout') }}</span>
+                            <a class="nav-link py-2 px-5" href="/dashboard">
+                                <span class="">Dashboard</span>
                             </a>
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                @csrf
-                            </form>
                         </li>
 
                         <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
                             <a class="nav-link py-2 px-5" href="/account_setting">
-                                <span class="">Settings</span>
+                                <span class="">Profile</span>
                             </a>
+                        </li>
+                        <li class="p-1 whitespace-no-wrap mb-1 md:mb-0 hover:text-white hover:bg-gray-900">
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST">
+                                @csrf
+                                <a class="nav-link py-2 px-5" href="{{ route('logout') }}" onclick="event.preventDefault();
+                                document.getElementById('logout-form').submit();">
+                                    <span>{{ __('Logout') }}</span>
+                                </a>
+                            </form>
                         </li>
                     </ul>
                 </li>
@@ -214,16 +221,18 @@
 
                 <div class="flex justify-center">
 
-                    <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer px-4 lg:inline-block text-gray-900 py-2 group bg-gray-300 rounded-full"
-                        id="button_like">
-                        <a class="font-semibold whitespace-no-wrap hover:underline" href="/contact">
+                    <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer lg:inline-block text-gray-900 group"
+                        >
+                        <a class="font-semibold whitespace-no-wrap hover:underline bg-gray-300 py-3 px-4 rounded-full" href="/contact" id="button_like">
                             <span class="">Contact Us</span>
                         </a>
                     </li>
 
                     <li class="relative py-2 group lg:mb-1 mb-4 cursor-pointer px-5 search-icon" id="search-toggle">
+                        <input type="checkbox" class="hidden" id="searchy">                
                         <svg class="fill-current text-grey-darkest w-6 text-center" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20">
+                            <title>search</title>
                             <path
                                 d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z">
                             </path>
@@ -232,7 +241,8 @@
 
                 </div>
             </ul>
-            <div class="relative w-full hidden bg-white" id="search-content">
+
+            <div class="relative w-full hidden bg-white search" id="search-content">
                 <div class="container mx-auto text-black">
                     <input id="searchfield" type="search" placeholder="Search..." autofocus="autofocus"
                         class="w-full text-grey-800 transition focus:outline-none focus:border-transparent p-2 appearance-none leading-normal text-xl lg:text-2xl">

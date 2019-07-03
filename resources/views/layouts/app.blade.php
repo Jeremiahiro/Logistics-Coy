@@ -9,6 +9,8 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -18,12 +20,18 @@
     {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css"> --}}
 
     <!-- Styles -->
+    
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">   
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     {{-- <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet"> --}}
 
 </head>
+
 <body class="leading-normal overflow-x-hidden text-white">
+    <div class="se-pre-con">
+        <div class="lds-ripple"><div></div><div></div></div>
+    </div>
+    
     <div>
         <main class="">
             @yield('content')
@@ -31,4 +39,5 @@
     </div>
 @include('partials.javascript')
 </body>
+
 </html>

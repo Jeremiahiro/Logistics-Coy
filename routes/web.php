@@ -23,6 +23,7 @@ Route::get('/flight', 'ServiceController@flight')->name('flight');
 Route::get('/visa', 'ServiceController@visa')->name('visa');  
 Route::get('/hotel', 'ServiceController@hotel')->name('hotel');  
 Route::get('/delivery', 'ServiceController@delivery')->name('delivery');  
+
 Auth::routes();
 
 Route::get('/dashboard', 'HomeController@index')->name('dashboard');

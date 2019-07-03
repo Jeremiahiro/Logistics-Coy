@@ -8,7 +8,7 @@
         </div>
 
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+            <div class="flex-1 bg-gray-200 rounded-t rounded-b-none overflow-hidden shadow text-center">
                 <div class="flex flex-wrap no-underline hover:no-underline">
                     <svg class="w-48 h-32 p-2 my-auto mx-auto" id="a50fd755-b70f-4e5f-b336-9e50a578b62c"
                         data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
@@ -263,7 +263,7 @@
         </div>
 
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+            <div class="flex-1 bg-gray-200 rounded-t rounded-b-none overflow-hidden shadow text-center">
                 <div class="flex flex-wrap no-underline hover:no-underline">
                     <svg class="w-48 h-32 p-2 my-auto mx-auto" id="baed4b18-14ee-447f-bd84-b0265ca0ad8a"
                         data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
@@ -566,7 +566,7 @@
                             transform="translate(-84.46 -118.23)" fill="#6c63ff" />
                     </svg>
 
-                    <div class="w-full font-bold text-xl text-gray-800 px-6">Best Price Guaranteed</div>
+                    <div class="w-full font-bold text-xl text-gray-800 px-6">BEST PRICE GUARANTEED</div>
                     <p class="text-gray-800 text-base px-6 mb-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo
                         posuere et sit amet ligula.
@@ -576,7 +576,7 @@
         </div>
 
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+            <div class="flex-1 bg-gray-200 rounded-t rounded-b-none overflow-hidden shadow text-center">
                 <div class="flex flex-wrap no-underline hover:no-underline">
 
                     <svg class="w-48 h-32 p-2 my-auto mx-auto" id="ae37f038-3a9e-4b82-ad68-fc94ba16af2a"
@@ -1103,7 +1103,7 @@
 
         <div class="lg:flex lg:mx-auto lg:max-w-4xl">
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+                <div class="flex-1 bg-gray-200 rounded-t rounded-b-none overflow-hidden shadow text-center">
                     <div class="flex flex-wrap no-underline hover:no-underline">
                         <svg class="w-48 h-32 p-2 my-auto mx-auto" id="af42373d-99da-4b97-8953-6caa05385f1a"
                             data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
@@ -1452,7 +1452,7 @@
             </div>
 
             <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center">
+                <div class="flex-1 bg-gray-200 rounded-t rounded-b-none overflow-hidden shadow text-center">
                     <div class="flex flex-wrap no-underline hover:no-underline">
                         <svg class="w-48 h-32 p-2 my-auto mx-auto" id="629dcec7-c063-4496-b40c-d8a33d01e794"
                             data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
