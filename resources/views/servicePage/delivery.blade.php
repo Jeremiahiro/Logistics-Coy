@@ -42,8 +42,8 @@
         <img src="images/background/coming_soon.jpg" class="w-full h-full" alt="">
     </div>
 
-    <div class="w-full text-xl md:text-2xl leading-normal" id="delivery">
-        <img src="images/background/coming_soon.jpg" class="w-full h-full" alt="">
+    <div class="w-full text-xl md:text-2xl leading-normal hidden" id="delivery">
+        @include('forms.delivery')
     </div>
 </div>
 

@@ -79,13 +79,13 @@
         </div>
 
         <div class="w-full md:w-1/5 px-1 mb-6 md:mb-0 hidden" id="flight_class">
-            <label class="block font-bold mb-2 tracking-wide text-sm uppercase" for="flight_class">
+            <label class="block font-bold mb-2 tracking-wide text-sm uppercase" for="grid-flight_class">
                 Class
             </label>
             <div class="inline-block relative w-full">
                 <select
                     class="shadow appearance-none border rounded w-full py-4 px-3 pl-12 bg-gray-200 text-lg text-gray-800 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                    id="grid-state">
+                    id="grid-flight-class">
                     <option>Economy</option>
                     <option>Business</option>
                     <option>First</option>

@@ -43,7 +43,7 @@
     </div>
 
     <div class="w-full text-xl md:text-2xl leading-normal hidden" id="delivery">
-        <img src="images/background/coming_soon.jpg" class="w-full h-full" alt="">
+        @include('forms.delivery')
     </div>
 </div>
 

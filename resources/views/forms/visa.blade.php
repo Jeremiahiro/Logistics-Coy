@@ -108,7 +108,7 @@
                 <div class="w-full mx-auto px-3 md:mb-0 text-center max-w-xs">
                     <button
                         class="w-full bg-yellow-600 text-white py-2 px-4 border-solid border-4 font-bold text-xl rounded-lg leading-tight border-yellow-600 shadow-lg hover:bg-transparent hover:text-orange-600 hover:text-2xl">
-                        Search
+                        Submit
                     </button>
                 </div>
             </div>

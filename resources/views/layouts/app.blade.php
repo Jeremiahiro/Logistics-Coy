@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="leading-normal overflow-x-hidden text-white">
+<body class="leading-normal lg:overflow-x-hidden text-white">
     <div class="se-pre-con">
         <div class="lds-ripple"><div></div><div></div></div>
     </div>
